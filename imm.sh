@@ -14,9 +14,9 @@ DOWNLOAD_URL=$(curl -s https://api.github.com/repos/$REPO/releases/tags/$TAG | j
 # DOWNLOAD_URL="https://downloads.openwrt.org/releases/24.10.0/targets/x86/64/openwrt-24.10.0-x86-64-generic-squashfs-combined-efi.img.gz"
 # 原版immortalwrt
 # DOWNLOAD_URL="https://downloads.immortalwrt.org/releases/24.10.2/targets/x86/64/immortalwrt-24.10.2-x86-64-generic-squashfs-combined-efi.img.gz"
-# DOWNLOAD_URL="https://github.com/lurenJBD/AutoBuildImmortalWrt/releases/download/Autobuild-x86-64/immortalwrt-24.10.2-x86-64-generic-squashfs-combined-efi.img.gz"
+DOWNLOAD_URL="https://github.com/lurenJBD/AutoBuildImmortalWrt/releases/download/Autobuild-x86-64/immortalwrt-24.10.3-x86-64-generic-squashfs-combined-efi.img.gz"
 # 5G CPE LEDE
-DOWNLOAD_URL="https://github.com/yizhanghong/Actions-lede/releases/download/2025.09.19_X86-64/openwrt-x86-64-generic-squashfs-combined-efi.img.gz"
+# DOWNLOAD_URL="https://github.com/yizhanghong/Actions-lede/releases/download/2025.09.19_X86-64/openwrt-x86-64-generic-squashfs-combined-efi.img.gz"
 
 # 原版KWRT
 # DOWNLOAD_URL="https://dl.openwrt.ai/releases/24.10/targets/x86/64/kwrt-03.08.2025-x86-64-generic-squashfs-combined-efi.img.gz"
